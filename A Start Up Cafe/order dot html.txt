@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <title>Document</title>
+</head>
+<body>
+<img src="bg1.png" class="bg">
+<div class="nav">
+    <img src="cof.jpg" class="logo0">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html" class="ab">About</a>
+    <a href="account.html" class="ac">Account</a>
+</div>
+<h1 class="wel">Welcome to Order Page</h1>
+<h3>If you want to buy coffee, Please click "Add to Cart" to buy.</h3>
+<h1 class="ice">ICED COFFEE</h1>
+<h1 class="hot">HOT COFFEE</h1>
+<div class="box0">
+<table class="tbl">
+    <td><img src="cappuccino.jpg" class="logo"></td>
+    <td class="cap">Iced Cappuccino</td>
+    <td class="sm">Small: 39 Pesos</td>
+    <td class="l">Large: 49 Pesos</td>
+    <td class="quan"><label>Quantity:</td></label>
+    <td><select class="select">
+        <optgroup label="Small">Small
+            <option value="0">0(S)</option>
+            <option value="1">1(S)</option>
+            <option value="2">2(S)</option>
+            <option value="3">3(S)</option>
+            <option value="4">4(S)</option>
+            <option value="5">5(S)</option>
+        </optgroup>
+            <optgroup label="Large">Large
+            <option value="0">0(L)</option>
+            <option value="1">1(L)</option>
+            <option value="2">2(L)</option>
+            <option value="3">3(L)</option>
+            <option value="4">4(L)</option>
+            <option value="5">5(L)</option>
+            </optgroup>
+   </td>
+</select>
+   <td><button class="btn0">Add to Cart</button></td>
+</table>
+</div>
+<div class="box1">
+<table class="tbl1">
+    <td><img src="americano.jpg" class="logo1"></td>
+    <td class="am1">Iced Americano</td>
+    <td class="sm1">Small: 39 Pesos</td>
+    <td class="l1">Large: 49 Pesos</td>
+    <td class="quan1"><label>Quantity:</label></td>
+    <td><select class="select1">
+        <optgroup label="Small">Small
+            <option value="0">0(S)</option>
+            <option value="1">1(S)</option>
+            <option value="2">2(S)</option>
+            <option value="3">3(S)</option>
+            <option value="4">4(S)</option>
+            <option value="5">5(S)</option>
+        </optgroup>
+            <optgroup label="Large">Large
+            <option value="0">0(L)</option>
+            <option value="1">1(L)</option>
+            <option value="2">2(L)</option>
+            <option value="3">3(L)</option>
+            <option value="4">4(L)</option>
+            <option value="5">5(L)</option>
+            </optgroup>
+   </td></select>
+   <td><button class="btn1">Add to Cart</button></td>
+</table>
+</div>
+<div class="box2">
+<table class="tbl2">
+    <td><img src="macchiato.jpg" class="logo2"></td>
+    <td class="mac2">Iced Macchiato</td>
+    <td class="sm2">Small: 39 Pesos</td>
+    <td class="l2">Large: 49 Pesos</td>
+    <td class="quan2"><label>Quantity: </td></label>
+    <td><select class="select2">
+        <optgroup label="Small">Small
+        <option value="0">0(S)</option>
+        <option value="1">1(S)</option>
+        <option value="2">2(S)</option>
+        <option value="3">3(S)</option>
+        <option value="4">4(S)</option>
+        <option value="5">5(S)</option>
+    </optgroup>
+        <optgroup label="Large">Large
+        <option value="0">0(L)</option>
+        <option value="1">1(L)</option>
+        <option value="2">2(L)</option>
+        <option value="3">3(L)</option>
+        <option value="4">4(L)</option>
+        <option value="5">5(L)</option>
+        </optgroup>
+   </td></select>
+   <td><button class="btn2">Add to Cart</button></td>
+</table>
+</div>
+<div class="box3">
+<table class="tbl3">
+    <td><img src="vanilla.jpg" class="logo3"></td>
+    <td class="van3">Iced Coffee Vanilla</td>
+    <td class="sm3">Small: 39 Pesos</td>
+    <td class="l3">Large: 49 Pesos</td>
+    <td class="quan3"><label>Quantity: </td></label>
+    <td><select class="select3">
+        <optgroup label="Small">Small
+        <option value="0">0(S)</option>
+        <option value="1">1(S)</option>
+        <option value="2">2(S)</option>
+        <option value="3">3(S)</option>
+        <option value="4">4(S)</option>
+        <option value="5">5(S)</option>
+    </optgroup>
+        <optgroup label="Large">Large
+        <option value="0">0(L)</option>
+        <option value="1">1(L)</option>
+        <option value="2">2(L)</option>
+        <option value="3">3(L)</option>
+        <option value="4">4(L)</option>
+        <option value="5">5(L)</option>
+        </optgroup>
+   </td></select>
+   <td><button class="btn3">Add to Cart</button></td>
+</table>
+</div>
+<div class="box4">
+    <table class="tbl4">
+        <td><img src="caramel.jpg" class="logo4"></td>
+        <td class="caram4">Iced Coffee Caramell</td>
+        <td class="sm4">Small: 39 Pesos</td>
+        <td class="l4">Large: 49 Pesos</td>
+        <td class="quan4"><label>Quantity: </td></label>
+        <td><select class="select4">
+            <optgroup label="Small">Small
+            <option value="0">0(S)</option>
+            <option value="1">1(S)</option>
+            <option value="2">2(S)</option>
+            <option value="3">3(S)</option>
+            <option value="4">4(S)</option>
+            <option value="5">5(S)</option>
+        </optgroup>
+            <optgroup label="Large">Large
+            <option value="0">0(L)</option>
+            <option value="1">1(L)</option>
+            <option value="2">2(L)</option>
+            <option value="3">3(L)</option>
+            <option value="4">4(L)</option>
+            <option value="5">5(L)</option>
+            </optgroup>
+       </td></select>
+       <td><button class="btn4">Add to Cart</button></td>
+    </table>
+    </div>
+<div class="box5">
+    <table class="tbl5">
+        <td><img src="mocha.jpg" class="logo5"></td>
+        <td class="mocha5">Iced Coffee Mocha</td>
+        <td class="sm5">Small: 39 Pesos</td>
+        <td class="l5">Large: 49 Pesos</td>
+        <td class="quan5"><label>Quantity: </td></label>
+        <td><select class="select5">
+            <optgroup label="Small">Small
+            <option value="0">0(S)</option>
+            <option value="1">1(S)</option>
+            <option value="2">2(S)</option>
+            <option value="3">3(S)</option>
+            <option value="4">4(S)</option>
+            <option value="5">5(S)</option>
+            </optgroup>
+            <optgroup label="Large">Large
+            <option value="0">0(L)</option>
+            <option value="1">1(L)</option>
+            <option value="2">2(L)</option>
+            <option value="3">3(L)</option>
+            <option value="4">4(L)</option>
+            <option value="5">5(L)</option>
+            </optgroup>
+        </td></select>
+        <td><button class="btn5">Add to Cart</button></td>
+    </table>
+</div>
+<div class="box6">
+    <table class="tbl6">
+        <td><img src="darkchoco.jpg" class="logo6"></td>
+        <td class="dark6">Iced Dark Choco</td>
+        <td class="sm6">Small: 39 Pesos</td>
+        <td class="l6">Large: 49 Pesos</td>
+        <td class="quan6"><label>Quantity: </td></label>
+        <td><select class="select6">
+            <optgroup label="Small">Small
+            <option value="0">0(S)</option>
+            <option value="1">1(S)</option>
+            <option value="2">2(S)</option>
+            <option value="3">3(S)</option>
+            <option value="4">4(S)</option>
+            <option value="5">5(S)</option>
+            </optgroup>
+            <optgroup label="Large">Large
+            <option value="0">0(L)</option>
+            <option value="1">1(L)</option>
+            <option value="2">2(L)</option>
+            <option value="3">3(L)</option>
+            <option value="4">4(L)</option>
+            <option value="5">5(L)</option>
+            </optgroup>
+        </td></select>
+        <td><button class="btn6">Add to Cart</button></td>
+    </table>
+</div>

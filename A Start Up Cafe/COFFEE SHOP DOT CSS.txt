@@ -1,0 +1,1013 @@
+.bg{
+    right: 0;
+    bottom: 0;
+    min-width: 85%;
+    min-height: 88%;
+    z-index: -1000;
+    background-attachment: fixed;
+}
+.wel{
+    position: absolute;
+    text-align: center;
+
+}
+@keyframes fadeIn{
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.ice{
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    color: lightblue;
+    font-size: 50px;
+}
+.hot{
+    position: absolute;
+    text-align: center;
+    top: 800px;
+    font-size: 50px;
+    color: orangered
+}
+h3{
+    text-align: center;
+    position: relative;
+    top: -25px;
+
+}
+.nav{
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -7px;
+    background-color: lightgray;
+    padding: 30px;
+    box-shadow: 5px 10px 20px black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-size: 20px;
+}
+.logo0{
+    height: 83px;
+    float: left;
+    margin-left: 5px;
+    margin-top: -30px;
+}
+.active{
+    text-decoration: underline red;
+    font-weight: bold;
+}
+.active:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.ab{
+    font-weight: bold;
+}
+.ac{
+    font-weight: bold;
+}
+.new:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.ab:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.ac:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.tbl{
+    position: absolute;
+    top: -5px;
+    padding: 1px;
+    margin-left: 80px;
+}
+.logo{
+    position: absolute;
+    left: 1px;
+    top: 20px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.cap{
+    position: absolute;
+    right: 164px;
+    bottom: -70px;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.btn0{
+position: absolute;
+top: 170px;
+right: 730px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn0:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.sm,.l{
+    position: absolute;
+    left: -390px;
+    bottom: -100px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.quan{
+    position: absolute;
+    bottom: -128px;
+    margin-bottom: 100px;
+    right: 605px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select{
+    position: relative;
+    padding: 3px;
+    right: 605px;
+    bottom: -128px;
+    z-index: 1;
+}
+.box0{
+    position: relative;
+    background-color: white;
+    width: 275px;
+    top: -40px;
+    left: 60px;
+    padding-left: -20px;
+    padding-bottom: 65px;
+}
+.tbl1{
+    position: relative;
+    top: 280px;
+    padding: 1px;
+    margin-left: -95px;
+    width: 200px;
+}
+.logo1{
+    position: relative;
+    left: 176px;
+    top: -270px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.am1{
+    position: relative;
+    left: 18px;
+    bottom: 218px;
+    font-size: 25px;
+    white-space: nowrap; 
+}
+.sm1,.l1{
+    position: relative;
+    left: -204px;
+    bottom: 189px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.btn1{
+position: relative;
+right: 545px;
+bottom: 118px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn1:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.quan1{
+    position: relative;
+    bottom: 160px;
+    margin-bottom: 100px;
+    right: 420px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select1{
+    position: relative;
+    padding: 3px;
+    right: 420px;
+    bottom: 160px;
+    z-index: 1;
+}
+.box1{
+    position: relative;
+    background-color: white;
+    width: 275px;
+    top: -357px;
+    left: 360px;
+    padding-top: 5px;
+    padding-left: -20px;
+    padding-bottom: 60px;
+}
+.tbl2{
+    position: relative;
+    top: 280px;
+    padding: 1px;
+    margin-left: -95px;
+    width: 200px;
+}
+.logo2{
+    position: relative;
+    left: 175px;
+    top: -270px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.mac2{
+    position: relative;
+    left: 18px;
+    bottom: 218px;
+    font-size: 25px;
+    white-space: nowrap; 
+}
+.sm2,.l2{
+    position: relative;
+    left: -200px;
+    bottom: 189px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.btn2{
+position: relative;
+right: 545px;
+bottom: 118px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn2:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.quan2{
+    position: relative;
+    bottom: 158px;
+    margin-bottom: 100px;
+    right: 417px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select2{
+    position: relative;
+    padding: 3px;
+    right: 417px;
+    bottom: 158px;
+    z-index: 1;
+}
+.box2{
+    position: relative;
+    background-color: white;
+    width: 275px;
+    top: -675px;
+    left: 660px;
+    padding-top: 5px;
+    padding-left: -20px;
+    padding-bottom: 60px;
+}
+.tbl3{
+    position: absolute;
+    top: 280px;
+    padding: 1px;
+    margin-left: -95px;
+    width: 200px;
+}
+.logo3{
+    position: relative;
+    left: 180px;
+    top: -270px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.van3{
+    position: relative;
+    left: 5px;
+    bottom: 218px;
+    font-size: 25px;
+    white-space: nowrap; 
+}
+.sm3,.l3{
+    position: relative;
+    left: -240px;
+    bottom: 189px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.btn3{
+position: relative;
+right: 580px;
+bottom: 118px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn3:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.quan3{
+    position: relative;
+    bottom: 158px;
+    right: 450px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select3{
+    position: relative;
+    padding: 3px;
+    right: 450px;
+    bottom: 158px;
+    z-index: 1;
+}
+.box3{
+    position: relative;
+    background-color: white;
+    bottom: 992px;
+    left: 958px;
+    padding-bottom: 65px;
+    margin-right: 1060px;
+}
+.tbl4{
+    position: relative;
+    top: 280px;
+    padding: 1px;
+    margin-left: -95px;
+    width: 200px;
+}
+.logo4{
+    position: relative;
+    left: 178px;
+    top: -270px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.caram4{
+    position: relative;
+    left: -10px;
+    bottom: 218px;
+    font-size: 25px;
+    white-space: nowrap; 
+}
+.sm4,.l4{
+    position: relative;
+    left: -260px;
+    bottom: 189px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.btn4{
+position: relative;
+right: 600px;
+bottom: 118px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn4:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.quan4{
+    position: relative;
+    bottom: 158px;
+    right: 480px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select4{
+    position: relative;
+    padding: 3px;
+    right: 480px;
+    bottom: 158px;
+    z-index: 1;
+}
+.box4{
+    position: relative;
+    background-color: white;
+    width: 275px;
+    bottom: 960px;
+    left: 190px;
+    padding-left: -20px;
+    padding-bottom: 65px;
+}
+.tbl5{
+    position: relative;
+    top: 280px;
+    padding: 1px;
+    margin-left: -95px;
+    width: 200px;
+}
+.logo5{
+    position: relative;
+    left: 178px;
+    top: -270px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.mocha5{
+    position: relative;
+    left: -10px;
+    bottom: 218px;
+    font-size: 25px;
+    white-space: nowrap; 
+}
+.sm5,.l5{
+    position: relative;
+    left: -240px;
+    bottom: 189px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.btn5{
+position: relative;
+right: 580px;
+bottom: 118px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn5:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.quan5{
+    position: relative;
+    bottom: 158px;
+    right: 450px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select5{
+    position: relative;
+    padding: 3px;
+    right: 450px;
+    bottom: 158px;
+    z-index: 1;
+}
+.box5{
+    position: relative;
+    background-color: white;
+    width: 275px;
+    bottom: 1278px;
+    left: 520px;
+    padding-left: -20px;
+    padding-bottom: 65px;
+}
+.tbl6{
+    position: relative;
+    top: 280px;
+    padding: 1px;
+    margin-left: -95px;
+    width: 200px;
+}
+.logo6{
+    position: relative;
+    left: 179px;
+    top: -270px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.dark6{
+    position: relative;
+    left: 13px;
+    bottom: 218px;
+    font-size: 25px;
+    white-space: nowrap; 
+}
+.sm6,.l6{
+    position: relative;
+    left: -217px;
+    bottom: 189px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.btn6{
+position: relative;
+right: 560px;
+bottom: 118px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn6:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.quan6{
+    position: relative;
+    bottom: 158px;
+    right: 430px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select6{
+    position: relative;
+    padding: 3px;
+    right: 430px;
+    bottom: 158px;
+    z-index: 1;
+}
+.box6{
+    position: relative;
+    background-color: white;
+    width: 275px;
+    bottom: 1595px;
+    left: 850px;
+    padding-left: -20px;
+    padding-bottom: 65px;
+}
+.tbl7{
+    position: relative;
+    top: 280px;
+    padding: 1px;
+    margin-left: -95px;
+    width: 200px;
+}
+.logo7{
+    position: relative;
+    left: 177px;
+    top: -270px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.blackcof7{
+    position: relative;
+    left: 30px;
+    bottom: 218px;
+    font-size: 25px;
+    white-space: nowrap; 
+}
+.sm7{
+    position: relative;
+    left: -110px;
+    bottom: 189px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.btn7{
+position: relative;
+right: 380px;
+bottom: 118px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn7:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.quan7{
+    position: relative;
+    bottom: 160px;
+    right: 250px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select7{
+    position: relative;
+    padding: 3px;
+    right: 250px;
+    bottom: 158px;
+    z-index: 1;
+}
+.box7{
+    position: relative;
+    background-color: white;
+    width: 275px;
+    bottom: 1400px;
+    left: 60px;
+    padding-left: -20px;
+    padding-bottom: 65px;
+}
+.tbl8{
+    position: relative;
+    top: 280px;
+    padding: 1px;
+    margin-left: -95px;
+    width: 200px;
+}
+.logo8{
+    position: relative;
+    left: 177px;
+    top: -270px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.whitecof8{
+    position: relative;
+    left: 30px;
+    bottom: 218px;
+    font-size: 25px;
+    white-space: nowrap; 
+}
+.sm8{
+    position: relative;
+    left: -110px;
+    bottom: 189px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.btn8{
+position: relative;
+right: 380px;
+bottom: 118px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn8:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.quan8{
+    position: relative;
+    bottom: 160px;
+    right: 250px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select8{
+    position: relative;
+    padding: 3px;
+    right: 250px;
+    bottom: 158px;
+    z-index: 1;
+}
+.box8{
+    position: relative;
+    background-color: white;
+    width: 275px;
+    bottom: 1717px;
+    left: 360px;
+    padding-left: -20px;
+    padding-bottom: 65px;
+}
+.tbl9{
+    position: relative;
+    top: 280px;
+    padding: 1px;
+    margin-left: -95px;
+    width: 200px;
+}
+.logo9{
+    position: relative;
+    left: 179px;
+    top: -270px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.hmacchiato9{
+    position: relative;
+    left: 45px;
+    bottom: 218px;
+    font-size: 25px;
+    white-space: nowrap; 
+}
+.sm9{
+    position: relative;
+    left: -80px;
+    bottom: 189px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.btn9{
+position: relative;
+right: 355px;
+bottom: 118px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn9:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.quan9{
+    position: relative;
+    bottom: 160px;
+    right: 220px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select9{
+    position: relative;
+    padding: 3px;
+    right: 220px;
+    bottom: 158px;
+    z-index: 1;
+}
+.box9{
+    position: relative;
+    background-color: white;
+    width: 275px;
+    bottom: 2033px;
+    left: 665px;
+    padding-left: -20px;
+    padding-bottom: 65px;
+}
+.tbl10{
+    position: relative;
+    top: 280px;
+    padding: 1px;
+    margin-left: -95px;
+    width: 200px;
+}
+.logo10{
+    position: relative;
+    left: 179px;
+    top: -270px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.hcappuccino10{
+    position: relative;
+    left: 41px;
+    bottom: 218px;
+    font-size: 25px;
+    white-space: nowrap; 
+}
+.sm10{
+    position: relative;
+    left: -88px;
+    bottom: 189px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.btn10{
+position: relative;
+right: 365px;
+bottom: 118px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn10:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.quan10{
+    position: relative;
+    bottom: 160px;
+    right: 230px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select10{
+    position: relative;
+    padding: 3px;
+    right: 230px;
+    bottom: 158px;
+    z-index: 1;
+}
+.box10{
+    position: relative;
+    background-color: white;
+    width: 275px;
+    bottom: 2350px;
+    left: 970px;
+    padding-left: -20px;
+    padding-bottom: 65px;
+}
+.tbl11{
+    position: relative;
+    top: 280px;
+    padding: 1px;
+    margin-left: -95px;
+    width: 200px;
+}
+.logo11{
+    position: relative;
+    left: 179px;
+    top: -270px;
+    height: 150px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 150px;
+}
+.hchoco11{
+    position: relative;
+    left: 47px;
+    bottom: 218px;
+    font-size: 25px;
+    white-space: nowrap; 
+}
+.sm11{
+    position: relative;
+    left: -78px;
+    bottom: 189px;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    padding: 15px;
+}
+.btn11{
+position: relative;
+right: 353px;
+bottom: 118px;
+width: 100px;
+padding: 10px;
+border-radius: 16px;
+cursor: pointer;
+z-index: 1;
+}
+.btn11:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.quan11{
+    position: relative;
+    bottom: 160px;
+    right: 220px;
+    font-size: 20px;
+    z-index: 1;
+}
+.select11{
+    position: relative;
+    padding: 3px;
+    right: 220px;
+    bottom: 158px;
+    z-index: 1;
+}
+.box11{
+    position: relative;
+    background-color: white;
+    width: 275px;
+    bottom: 2300px;
+    left: 500px;
+    padding-left: -20px;
+    padding-bottom: 65px;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 50px;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    transition: 0.5s;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+}
+header h1{
+    position: relative;
+    bottom: 4000px;
+    left: 800px;
+    font-size: 25px;
+}
+header .shopping{
+    position: relative;
+    text-align: right;
+    bottom: 3990px;
+    left: 70px;
+}
+header .shopping img{
+    width: 40px;
+}
+header .shopping span{
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: -5px;
+    left: 40px;
+    padding: 3px 10px;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 50px;
+}
+.card{
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 500px;
+    background-color: antiquewhite;
+    height: 100vh;
+    transition: 0.5;
+}
+.card h1{
+    color: burlywood;
+    font-weight: 100;
+    margin: 0;
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.card .checkOut{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card .checkOut div{
+    background-color: gainsboro;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card .checkOut div:nth-child(2){
+    background-color: black;
+    color: white;
+}
+.active .card{
+    left: calc(100% - 500px);
+}
+.active .container{
+    transform: translate(-200px);
+}

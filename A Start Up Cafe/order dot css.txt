@@ -1,0 +1,673 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.bg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+   
+}
+.nav{
+    position: absolute;
+    margin-right: -30%;
+    text-align: right;
+    width: 95%;
+    background-color: lightgray;
+    padding: 3%;
+    right: 30%;
+    box-shadow: 5px 10px 20px black;
+}
+.logo0{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 6%;
+    left: 1%;   
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-size: 20px;
+}
+.active{
+    text-decoration: underline red;
+    font-weight: bold;
+}
+.active:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.ab{
+    font-weight: bold;
+}
+.ac{
+    font-weight: bold;
+}
+.new:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.ab:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.ac:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.wel{
+    position: absolute;
+    font-size: 4rem;
+    top: 15%;
+    left: 33%;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn{
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.ice{
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    color: lightblue;
+    font-size: 50px;
+}
+.hot{
+    position: absolute;
+    top: 130%;
+    left: 41%;
+    color: black;
+    font-size: 50px;
+}
+.tbl{
+    position: absolute;
+    top: 70%;
+    padding: 1px;
+    margin-left: 80px;
+}
+.logo{
+    position: absolute;
+    left: 60%;
+    top: -200px;
+    height: 170px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 170px;
+}
+.cap{
+    position: absolute;
+    right: -790%;
+    bottom: 40%;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.btn0{
+    position: absolute;
+    top: 990%;
+    right: -600%;
+    width: 100px;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn0:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.sm{
+    position: absolute;
+    left: -250%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.l{
+    position: absolute;
+    left: 520%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.quan{
+    position: absolute;
+    right: -250%;
+    bottom: -750%;
+    font-size: 20px;
+    z-index: 1;
+}
+.select{
+    position: absolute;
+    padding: 20%;
+    right: -650%;
+    bottom: -750%;
+    z-index: 1;
+}
+.box0{
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    left: 10%;
+}
+.tbl1{
+    position: absolute;
+    top: 70%;
+    padding: 1px;
+    margin-left: 80px;
+}
+.logo1{
+    position: absolute;
+    left: 60%;
+    top: -200px;
+    height: 170px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 170px;
+}
+.am1{
+    position: absolute;
+    right: -790%;
+    bottom: 40%;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.btn1{
+    position: absolute;
+    top: 990%;
+    right: -600%;
+    width: 100px;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn1:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.sm1{
+    position: absolute;
+    left: -250%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.l1{
+    position: absolute;
+    left: 520%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.quan1{
+    position: absolute;
+    right: -250%;
+    bottom: -750%;
+    font-size: 20px;
+    z-index: 1;
+}
+.select1{
+    position: absolute;
+    padding: 20%;
+    right: -650%;
+    bottom: -750%;
+    z-index: 1;
+}
+.box1{
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    left: 30%;
+}
+.tbl2{
+    position: absolute;
+    top: 70%;
+    padding: 1px;
+    margin-left: 80px;
+}
+.logo2{
+    position: absolute;
+    left: 60%;
+    top: -200px;
+    height: 170px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 170px;
+}
+.mac2{
+    position: absolute;
+    right: -790%;
+    bottom: 40%;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.btn2{
+    position: absolute;
+    top: 990%;
+    right: -600%;
+    width: 100px;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn2:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.sm2{
+    position: absolute;
+    left: -250%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.l2{
+    position: absolute;
+    left: 520%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.quan2{
+    position: absolute;
+    right: -250%;
+    bottom: -750%;
+    font-size: 20px;
+    z-index: 1;
+}
+.select2{
+    position: absolute;
+    padding: 20%;
+    right: -650%;
+    bottom: -750%;
+    z-index: 1;
+}
+.box2{
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    left: 50%;
+}
+.tbl3{
+    position: absolute;
+    top: 70%;
+    padding: 1px;
+    margin-left: 80px;
+}
+.logo3{
+    position: absolute;
+    left: 60%;
+    top: -200px;
+    height: 170px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 170px;
+}
+.van3{
+    position: absolute;
+    right: -890%;
+    bottom: 40%;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.btn3{
+    position: absolute;
+    top: 990%;
+    right: -600%;
+    width: 100px;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn3:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.sm3{
+    position: absolute;
+    left: -250%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.l3{
+    position: absolute;
+    left: 520%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.quan3{
+    position: absolute;
+    right: -210%;
+    bottom: -720%;
+    font-size: 20px;
+    z-index: 1;
+}
+.select3{
+    position: absolute;
+    padding: 3%;
+    right: -600%;
+    bottom: -700%;
+    z-index: 1;
+}
+.box3{
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    left: 70%;
+}
+.tbl4{
+    position: absolute;
+    top: 70%;
+    padding: 1px;
+    margin-left: 80px;
+}
+.logo4{
+    position: absolute;
+    left: 60%;
+    top: -200px;
+    height: 170px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 170px;
+}
+.caram4{
+    position: absolute;
+    right: -890%;
+    bottom: 40%;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.btn4{
+    position: absolute;
+    top: 990%;
+    right: -600%;
+    width: 100px;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn4:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.sm4{
+    position: absolute;
+    left: -250%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.l4{
+    position: absolute;
+    left: 520%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.quan4{
+    position: absolute;
+    right: -210%;
+    bottom: -720%;
+    font-size: 20px;
+    z-index: 1;
+}
+.select4{
+    position: absolute;
+    padding: 3%;
+    right: -600%;
+    bottom: -700%;
+    z-index: 1;
+}
+.box4{
+    position: absolute;
+    width: 100%;
+    margin-top: 55%;
+    left: 20%;
+}
+.tbl5{
+    position: absolute;
+    top: 70%;
+    padding: 1px;
+    margin-left: 80px;
+}
+.logo5{
+    position: absolute;
+    left: 60%;
+    top: -200px;
+    height: 170px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 170px;
+}
+.mocha5{
+    position: absolute;
+    right: -890%;
+    bottom: 40%;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.btn5{
+    position: absolute;
+    top: 990%;
+    right: -600%;
+    width: 100px;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn5:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.sm5{
+    position: absolute;
+    left: -250%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.l5{
+    position: absolute;
+    left: 520%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.quan5{
+    position: absolute;
+    right: -210%;
+    bottom: -720%;
+    font-size: 20px;
+    z-index: 1;
+}
+.select5{
+    position: absolute;
+    padding: 3%;
+    right: -600%;
+    bottom: -700%;
+    z-index: 1;
+}
+.box5{
+    position: absolute;
+    width: 100%;
+    margin-top: 55%;
+    left: 40%;
+}
+.tbl6{
+    position: absolute;
+    top: 70%;
+    padding: 1px;
+    margin-left: 80px;
+}
+.logo6{
+    position: absolute;
+    left: 60%;
+    top: -200px;
+    height: 170px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 170px;
+}
+.dark6{
+    position: absolute;
+    right: -890%;
+    bottom: 40%;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.btn6{
+    position: absolute;
+    top: 990%;
+    right: -600%;
+    width: 100px;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn6:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.sm6{
+    position: absolute;
+    left: -250%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.l6{
+    position: absolute;
+    left: 520%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.quan6{
+    position: absolute;
+    right: -210%;
+    bottom: -720%;
+    font-size: 20px;
+    z-index: 1;
+}
+.select6{
+    position: absolute;
+    padding: 3%;
+    right: -600%;
+    bottom: -700%;
+    z-index: 1;
+}
+.box6{
+    position: absolute;
+    width: 100%;
+    margin-top: 55%;
+    left: 60%;
+}
+.tbl7{
+    position: absolute;
+    top: 70%;
+    padding: 1px;
+    margin-left: 80px;
+}
+.logo7{
+    position: absolute;
+    left: 60%;
+    top: -200px;
+    height: 170px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 170px;
+}
+.blackcof7{
+    position: absolute;
+    right: -705%;
+    bottom: 40%;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.btn7{
+    position: absolute;
+    top: 990%;
+    right: -600%;
+    width: 100px;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn7:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.sm7{
+    position: absolute;
+    left: 78%;
+    bottom: -300%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.quan7{
+    position: absolute;
+    right: -290%;
+    bottom: -720%;
+    font-size: 20px;
+    z-index: 1;
+}
+.select7{
+    position: absolute;
+    padding: 3%;
+    right: -600%;
+    bottom: -700%;
+    z-index: 1;
+}
+.box7{
+    position: absolute;
+    width: 100%;
+    margin-top: 55%;
+    left: 0;
+}

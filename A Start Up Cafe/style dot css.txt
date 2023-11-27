@@ -1,0 +1,98 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.bg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 90%;
+    min-height: 88%;
+    z-index: -1000;
+   
+}
+.nav{
+    text-align: right;
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -7px;
+    background-color: lightgray;
+    padding: 3%;
+    box-shadow: 5px 10px 20px black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-size: 20px;
+}
+.text{
+    position: absolute;
+    text-align: justify;
+    left: 20%;
+    bottom: 240px;
+    color: burlywood;
+    font-size: 20px;
+    animation: fadeIn 0.1s;
+}
+@keyframes fadeIn{
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.logo{
+    height: 120px;
+    float: left;
+    margin-left: -50px;
+    margin-top: -40px;
+}
+.active{
+    text-decoration: underline red;
+    font-weight: bold;
+}
+.active:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.new{
+    font-weight: bold;
+}
+.ab{
+    font-weight: bold;
+}
+.ac{
+    font-weight: bold;
+}
+.new:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.ab:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.ac:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+@media screen and (max-width: 600px) {
+    .bg{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        background-size: contain;
+        z-index: -1000;
+        width: 100%;
+        height: 100%;
+    }
+    .nav{
+        margin-bottom: 1px;
+        padding: 15px;
+        box-shadow: 5px 10px 20px black;
+    }
+    .logo{
+        margin-top: -10px;
+    }
+}

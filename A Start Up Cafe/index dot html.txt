@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Business Name</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="cof.jpg" class="logo">
+        <a href="" class="active">Home</a>
+        <a href="order.html" class="new">Order Coffee</a>
+        <a href="about.html" class="ab">About</a>
+        <a href="account.html" class="ac">Account</a>
+    </div>
+    <img src="bg.jpg" class="bg">
+    <div class="text">
+        <h1>Hi, Welcome to Hidden Brewery</h1>
+        <p>This website is all about coffee and the purpose of this website
+            is to order through online.<br> So if you are interested in coffee and
+            if you want to order here, Click the "order coffee"<br> at the top.
+            if you have any Question Please click about and find our Social Media
+            platform.<br> Thankyou for visiting our website.
+        </p>
+    </div>
+</body>
+</html>
